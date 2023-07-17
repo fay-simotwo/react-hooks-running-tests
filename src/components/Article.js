@@ -1,9 +1,12 @@
 import React from "react";
+import Header from "./Header";
+
 
 function Article() {
   return (
     <div>
-      {/* please pass this test */}
+ <Header /> {/* Add the Header component here */}
+      please pass this test
     </div>
   );
 }
